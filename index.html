@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Angel Jimenez | Real Estate Broker</title>
+    <link rel="icon" type="image/x-icon" href="/icons/angeljimenez.favicon.ico">
+    <link rel="canonical" href="http://angeljimenez.us">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- Angel Jimenez, BSBA 3/28/2026 GitHub project-->
+     <meta name="description" content="Angel Jimenez Real Estate Broker" />
+    <meta property="og:title" content="Angel Jimenez | Real Estate Broker" />
+    <meta property="og:description" content="Angel Jimenez Real Estate Broker" />
+    <meta property="og:url" content="http://angeljimenez.us/" />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" />
+    <!-- my styles 3/25/2026 -->
+    <style>
+        .bg-surface {
+            --tw-bg-opacity: 1;
+            background-color: rgb(255 255 255) !important;
+        }
+        
+        .min-h-\[870px\] {
+            min-height: 670px !important;
+        }
+        
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+        }
+        
+        .btn-primary-gradient {
+            background: linear-gradient(135deg, #292be7 0%, #474dff 100%);
+        }
+        
+        @media (min-width: 481px) {
+    .mb-8 {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 56px;
+    }
+}
+        
+    </style>
+    <script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class"
+            , theme: {
+                extend: {
+                    colors: {
+                        "inverse-on-surface": "#eef1f6"
+                        , "surface-dim": "#d7dadf"
+                        , "on-tertiary-container": "#3c3f44"
+                        , "on-primary-fixed": "#002114"
+                        , "outline": "#6c7a71"
+                        , "secondary-fixed-dim": "#bfc1ff"
+                        , "on-primary": "#ffffff"
+                        , "error-container": "#ffdad6"
+                        , "surface-tint": "#006c4b"
+                        , "surface-container-highest": "#e0e3e8"
+                        , "surface-bright": "#f7f9ff"
+                        , "on-tertiary-fixed": "#181c20"
+                        , "on-secondary-fixed": "#03006d"
+                        , "inverse-surface": "#2d3135"
+                        , "surface-container-high": "#e5e8ee"
+                        , "primary-fixed-dim": "#42dfa4"
+                        , "on-tertiary": "#ffffff"
+                        , "background": "#f7f9ff"
+                        , "on-secondary": "#ffffff"
+                        , "on-background": "#181c20"
+                        , "tertiary-fixed": "#e0e3e8"
+                        , "error": "#ba1a1a"
+                        , "on-tertiary-fixed-variant": "#43474c"
+                        , "on-error": "#ffffff"
+                        , "secondary-container": "#474dff"
+                        , "on-surface-variant": "#3c4a42"
+                        , "outline-variant": "#bbcac0"
+                        , "on-primary-fixed-variant": "#005137"
+                        , "surface-container-low": "#f1f4f9"
+                        , "tertiary-container": "#a7abb0"
+                        , "primary-container": "#00c289"
+                        , "secondary": "#292be7"
+                        , "on-primary-container": "#004931"
+                        , "on-surface": "#181c20"
+                        , "primary": "#006c4b"
+                        , "on-secondary-fixed-variant": "#1a18df"
+                        , "surface": "#f7f9ff"
+                        , "inverse-primary": "#42dfa4"
+                        , "surface-container-lowest": "#ffffff"
+                        , "surface-container": "#ebeef3"
+                        , "on-secondary-container": "#e7e6ff"
+                        , "tertiary-fixed-dim": "#c3c7cc"
+                        , "surface-variant": "#e0e3e8"
+                        , "on-error-container": "#93000a"
+                        , "primary-fixed": "#65fcbe"
+                        , "tertiary": "#5b5f63"
+                        , "secondary-fixed": "#e1e0ff"
+                    }
+                    , fontFamily: {
+                        "headline": ["Plus Jakarta Sans", "sans-serif"]
+                        , "body": ["Inter", "sans-serif"]
+                        , "label": ["Inter", "sans-serif"]
+                    }
+                    , borderRadius: {
+                        "DEFAULT": "0.125rem"
+                        , "lg": "0.25rem"
+                        , "xl": "0.5rem"
+                        , "full": "0.75rem"
+                    }
+                , }
+            , }
+        , }
+    </script>
+   
+</head>
+
+<body class="bg-background text-on-surface font-body selection:bg-primary-container selection:text-on-primary-container">
+    <!-- TopNavBar -->
+    <nav class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md">
+        <div class="flex justify-between items-center max-w-7xl mx-auto px-8 h-20"> <a class="text-2xl font-black text-[#181C20] dark:text-white font-headline tracking-tight" href="#">Angel Jimenez</a>
+            <!-- Desktop Links -->
+            <div class="hidden md:flex items-center space-x-10"> <a class="text-[#474DFF] dark:text-[#00C289] border-b-2 border-[#474DFF] dark:border-[#00C289] pb-1 text-sm font-semibold uppercase tracking-wider font-label" href="#home">HOME</a> <a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#474DFF] transition-colors duration-300 text-sm font-semibold uppercase tracking-wider font-label" href="#summary">ABOUT</a> <a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#474DFF] transition-colors duration-300 text-sm font-semibold uppercase tracking-wider font-label" href="#skills">COMPETENCIES</a> <a class="text-slate-600 dark:text-slate-400 font-medium hover:text-[#474DFF] transition-colors duration-300 text-sm font-semibold uppercase tracking-wider font-label" href="#contact">CONTACT</a> </div> <a class="px-6 py-2.5 btn-primary-gradient text-white font-bold rounded-full transition-transform active:scale-95 text-sm uppercase tracking-wider" href="#contact">Connect</a> </div>
+    </nav>
+    <main>
+        <!-- Hero Section -->
+        <section class="pt-20" id="home">
+            <div class="bg-primary-container min-h-[870px] flex flex-col items-center justify-center text-center px-6 relative overflow-hidden">
+                <div class="absolute inset-0 opacity-10 pointer-events-none"> <img class="w-full h-full object-cover" data-alt="subtle geometric abstract pattern with overlapping circles and lines in white on a bright green background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCB2UzMVgOhT9lakHFDBKaCjlIK6lAoqKh207cAwCMY1geX0zk52wBbHHNfKqXNmlY-21_ETy7HI86hPb22TvJxpLoI-oXO6UDMr9ZnxCPU90nr6ojLsXf8MVDdginsqclQGnlTVIz8qv6n0ammnIKEZiqPznv5cpcj0RaEooG_QsYwJtahfpVuqQCkEbeDDDVqRDRbVMSj6inycdfKpaDiMEzAriTPrmK3537V9dyndmqpe5Sd8sv8L76iV1wADNvWjt2RkbiFfr0" /> </div>
+                <div class="max-w-5xl relative z-10">
+                    <h1 class="font-headline text-5xl md:text-7xl font-extrabold text-on-primary-container tracking-tighter leading-[1.1] mb-8">
+                        Real Estate Broker Making the Transaction Process <span class="bg-white/30 px-2">Simple</span> of Buying and Selling Real Estate
+                    </h1>
+                    <div class="flex flex-col md:flex-row items-center justify-center gap-6"> <a class="px-10 py-5 btn-primary-gradient text-white font-bold rounded-full shadow-lg hover:shadow-xl transition-all active:scale-95 text-lg" href="#contact">
+                            Contact Me
+                        </a>
+                        <p class="text-on-primary-container/80 font-medium max-w-xs text-left hidden md:block border-l-2 border-on-primary-container/20 pl-6"> Simplifying the San Diego market for high-tier consultants and homeowners. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Summary Section -->
+        <section class="py-24 bg-surface px-8" id="summary">
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+                <div class="lg:col-span-4 sticky top-32"><!-- images goes here --> </div>
+                <div class="lg:col-span-8 lg:pl-12">
+                    <label class="font-label text-sm font-bold uppercase tracking-[0.2em] text-primary mb-4 block">PROFESSIONAL SUMMARY</label>
+                    <h2 class="font-headline text-4xl md:text-5xl font-bold text-on-surface mb-8 leading-tight">Expertise Rooted in San Diego Tradition</h2>
+                    <div class="space-y-6 text-on-surface-variant text-lg leading-relaxed">
+                        <p> Angel Jimenez, BSBA, is a dedicated Real Estate Broker with a profound understanding of the San Diego real estate landscape. His journey is anchored by a solid academic foundation from **San Diego State University**, where he cultivated the strategic thinking and financial acumen necessary for high-stakes property transactions. </p>
+                        <p> As a specialist in the local market, Angel leverages his BSBA background to provide clients with data-driven insights and sophisticated market analysis. Whether navigating complex multi-party negotiations or managing intricate financial disclosures, his approach remains grounded in transparency and simplicity. </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        <section class="py-24 bg-surface-container-low px-8" id="skills">
+            <div class="max-w-7xl mx-auto">
+                <div class="mb-16">
+                    <label class="font-label text-sm font-bold uppercase tracking-[0.2em] text-secondary mb-4 block">CORE COMPETENCIES</label>
+                    <h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-surface">Skills It’ll blow your mind.</h2> </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Skill Card 1 -->
+                    <div class="bg-surface-container-lowest p-8 rounded-full border border-outline-variant/15 hover:shadow-lg transition-all group">
+                        <div class="w-12 h-12 rounded-lg bg-primary-container/20 flex items-center justify-center mb-6 group-hover:bg-primary-container transition-colors"> <span class="material-symbols-outlined text-primary group-hover:text-white" data-icon="handshake">handshake</span> </div>
+                        <h3 class="font-headline text-xl font-bold mb-3">Negotiation</h3>
+                        <p class="text-on-surface-variant text-sm">Strategizing the best possible outcomes for buyers and sellers through high-stakes mediation.</p>
+                    </div>
+                    <!-- Skill Card 2 -->
+                    <div class="bg-surface-container-lowest p-8 rounded-full border border-outline-variant/15 hover:shadow-lg transition-all group">
+                        <div class="w-12 h-12 rounded-lg bg-secondary-container/20 flex items-center justify-center mb-6 group-hover:bg-secondary-container transition-colors"> <span class="material-symbols-outlined text-secondary group-hover:text-white" data-icon="account_balance">account_balance</span> </div>
+                        <h3 class="font-headline text-xl font-bold mb-3">Real Estate Finance</h3>
+                        <p class="text-on-surface-variant text-sm">In-depth knowledge of mortgage structures, investment analysis, and capital allocation.</p>
+                    </div>
+                    <!-- Skill Card 3 -->
+                    <div class="bg-surface-container-lowest p-8 rounded-full border border-outline-variant/15 hover:shadow-lg transition-all group">
+                        <div class="w-12 h-12 rounded-lg bg-primary-container/20 flex items-center justify-center mb-6 group-hover:bg-primary-container transition-colors"> <span class="material-symbols-outlined text-primary group-hover:text-white" data-icon="payments">payments</span> </div>
+                        <h3 class="font-headline text-xl font-bold mb-3">Financial Management</h3>
+                        <p class="text-on-surface-variant text-sm">Meticulous oversight of escrow, budget planning, and asset valuation for optimal ROI.</p>
+                    </div>
+                    <!-- Skill Card 4 -->
+                    <div class="bg-surface-container-lowest p-8 rounded-full border border-outline-variant/15 hover:shadow-lg transition-all group">
+                        <div class="w-12 h-12 rounded-lg bg-secondary-container/20 flex items-center justify-center mb-6 group-hover:bg-secondary-container transition-colors"> <span class="material-symbols-outlined text-secondary group-hover:text-white" data-icon="trending_up">trending_up</span> </div>
+                        <h3 class="font-headline text-xl font-bold mb-3">Market Analysis</h3>
+                        <p class="text-on-surface-variant text-sm">Predictive modeling of San Diego real estate trends and competitive positioning.</p>
+                    </div>
+                </div>
+                <div class="mt-12 flex flex-wrap gap-3"> <span class="bg-surface-container-highest px-6 py-2 rounded-lg font-label text-sm font-bold text-on-surface">STRATEGIC PLANNING</span> <span class="bg-surface-container-highest px-6 py-2 rounded-lg font-label text-sm font-bold text-on-surface">CONTRACT LAW</span> <span class="bg-surface-container-highest px-6 py-2 rounded-lg font-label text-sm font-bold text-on-surface">CUSTOMER ACQUISITION</span> <span class="bg-surface-container-highest px-6 py-2 rounded-lg font-label text-sm font-bold text-on-surface">SALES MANAGEMENT</span> </div>
+            </div>
+        </section>
+        <!-- Education Section -->
+        <section class="py-24 bg-surface px-8">
+            <div class="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-end gap-8 mb-16">
+                <div>
+                    <label class="font-label text-sm font-bold uppercase tracking-[0.2em] text-primary mb-4 block">ACADEMIC BACKGROUND</label>
+                    <h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-surface">Education See for yourself.</h2> </div>
+            </div>
+            <div class="bg-surface-container-lowest rounded-full p-12 flex flex-col md:flex-row items-center gap-12 border border-outline-variant/10 shadow-sm">
+                <div class="w-48 h-48 flex-shrink-0 bg-white p-4 rounded-xl flex items-center justify-center shadow-inner">
+                    <!-- SDSU LOGO --><img class="max-w-full h-auto" data-alt="Official San Diego State University logo with its iconic crest and scarlet and black colors on a white background" src="/images/San%20Diego%20State%20University_.png" /> </div>
+                <div class="flex-grow text-center md:text-left">
+                    <h3 class="font-headline text-3xl font-bold text-on-surface mb-2">San Diego State University</h3>
+                    <p class="text-secondary font-bold text-xl mb-4">Bachelor of Science in Business Administration (BSBA)</p>
+                    <p class="text-on-surface-variant max-w-2xl leading-relaxed"> Major in General Business. Angel's academic career at SDSU provided the rigorous training in economics, business ethics, and quantitative analysis that differentiates his brokerage practice today. </p>
+                </div>
+            </div>
+        </section>
+        <!-- Ready to do Business Section -->
+        <section class="py-24 relative min-h-[600px] flex items-center overflow-hidden"> <img class="absolute inset-0 w-full h-full object-cover" data-alt="high-end minimalist office desk with a modern laptop, expensive watch, and professional architectural blueprints on a clean marble surface" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBOUqNFP-qfXQ_Wc1TBwHs2pIVKoeF7eM1VAxxr5qMmqjWHsy8YEZsLR9U6x5KfvnlMy13c5pHYK4i8a6wXZHKQdyLz2icnVANbxImSfYAc0P3bb3AYGV2_WzEd4Dc5O-ymzHnR85GNREAsLlcgptl1mlXkibLCho88XbpI5wwl36zeNe7xsFTte1L3B-cEI6gFAAgAfM061ZtjcJTyqGeEP5kjW1QS5RIOLQFSdvzAkjbhMNqSfVyrokOKqmdZL-_witcDpXa3V9c" />
+            <div class="absolute inset-0 bg-secondary/80 mix-blend-multiply"></div>
+            <div class="max-w-7xl mx-auto px-8 relative z-10 w-full">
+                <div class="max-w-3xl bg-white/10 backdrop-blur-xl p-12 rounded-full border border-white/20">
+                    <label class="font-label text-xs font-bold uppercase tracking-[0.3em] text-primary-fixed mb-6 block">NEXT STEPS</label>
+                    <h2 class="font-headline text-4xl md:text-6xl font-black text-white mb-8 tracking-tighter">Ready to do Business! <span class="text-primary-fixed">Checkmate.</span></h2>
+                    <p class="text-white/90 text-xl leading-relaxed mb-10"> I am always open to discussing new opportunities, market insights, and how I can help you achieve your real estate goals. My approach is data-driven, market-focused, and entirely centered around your success. </p> <a class="inline-flex items-center gap-4 bg-white text-secondary px-8 py-4 rounded-full font-bold text-lg hover:bg-primary-container hover:text-white transition-all" href="#contact">
+                        Let's Talk Business
+                        <span class="material-symbols-outlined">arrow_forward</span>
+</a> </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        <section class="py-24 bg-surface-container-low px-8" id="contact">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="font-headline text-4xl md:text-5xl font-extrabold text-on-surface mb-4">How may I Help?</h2>
+                    <p class="text-on-surface-variant text-lg">Send a message and I'll get back to you within 24 hours.</p>
+                </div>
+               <div id="mc_embed_shell">
+                    <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
+                    <style type="text/css">
+                        #mc_embed_signup {
+                            background: #fff;
+                            false;
+                            clear: left;
+                           font-family: "Plus Jakarta Sans", sans-serif;
+                            font-size: 1rem;
+                            color: #242832;
+                            font-weight: 500;
+                            /* Auto Width My Styles CSS 3/38/2026 */
+                            width: auto;
+                            padding: 20px;
+                            border-radius: 20px;
+                            background-color: rgb(255, 255, 255);
+                            border: 1px solid rgb(205, 205, 211);
+                            box-shadow: rgba(0, 0, 0, 0.15) 0px 4px 15px;
+                        }
+
+                        /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
+           We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                    </style>
+                    <div id="mc_embed_signup">
+                        <form action="https://gmail.us14.list-manage.com/subscribe/post?u=858782e8f7d217cc910aea614&amp;id=34b5f94d6b&amp;f_id=003ebbe5f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                            <div id="mc_embed_signup_scroll">
+                                <h2>Please input contact information below.</h2>
+                                <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
+                                <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+                                <div class="mc-field-group"><label for="mce-FNAME">First Name <span class="asterisk">*</span></label><input type="text" name="FNAME" class="required text" id="mce-FNAME" required="" value=""></div>
+                                <div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME" class=" text" id="mce-LNAME" value=""></div>
+                                <div class="mc-field-group"><label for="mce-PHONE">Phone Number <span class="asterisk">*</span></label><input type="text" name="PHONE" class="REQ_CSS" id="mce-PHONE" value=""></div>
+                                <div class="mc-field-group"><label for="mce-MMERGE6">How may I help? <span class="asterisk">*</span></label><input type="text" name="MMERGE6" class="required text" id="mce-MMERGE6" value="" required=""><span id="mce-MMERGE6-HELPERTEXT" class="helper_text">Allow 24 hours during business hours for a reply.</span></div>
+                                <div id="mce-responses" class="clear foot">
+                                    <div class="response" id="mce-error-response" style="display: none;"></div>
+                                    <div class="response" id="mce-success-response" style="display: none;"></div>
+                                </div>
+                                <div aria-hidden="true" style="position: absolute; left: -5000px;">
+                                    /* real people should not fill this in and expect good things - do not remove this or risk form bot signups */
+                                    <input type="text" name="b_858782e8f7d217cc910aea614_34b5f94d6b" tabindex="-1" value="">
+                                </div>
+                                <div class="optionalParent">
+                                    <div class="clear foot">
+                                        <input type="submit" name="submit" id="mc-embedded-subscribe" class="button" value="Submit">
+                                        <p style="margin: 0px auto;">
+                                            <!-- <a href="http://eepurl.com/iNHWz2" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: transparent; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-dark.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a> -->
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>
+                    <script type="text/javascript">
+                        (function($) {
+                            window.fnames = new Array();
+                            window.ftypes = new Array();
+                            fnames[0] = 'EMAIL';
+                            ftypes[0] = 'email';
+                            fnames[1] = 'FNAME';
+                            ftypes[1] = 'text';
+                            fnames[2] = 'LNAME';
+                            ftypes[2] = 'text';
+                            fnames[4] = 'PHONE';
+                            ftypes[4] = 'phone';
+                            fnames[6] = 'MMERGE6';
+                            ftypes[6] = 'text';
+                            fnames[3] = 'ADDRESS';
+                            ftypes[3] = 'address';
+                            fnames[5] = 'MMERGE5';
+                            ftypes[5] = 'url';
+                        }(jQuery));
+                        var $mcj = jQuery.noConflict(true);
+                    </script>
+                </div>
+
+                <!-- /end of Form -->
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="w-full py-12 bg-[#F1F4F9] dark:bg-slate-950">
+        <div class="flex flex-col md:flex-row justify-between items-center px-8 max-w-7xl mx-auto">
+            <div class="mb-8 md:mb-0"> <span class="text-lg font-bold text-slate-900 dark:text-white font-headline">Angel Jimenez</span>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-2 font-body">© 2026 Angel Jimenez. All rights reserved.</p>
+                <p class="text-slate-500 dark:text-slate-400 text-sm mt-2 font-body">Angel Realty | CA DRE# 01848471 </p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-8"> <a class="text-slate-500 dark:text-slate-400 font-label text-sm hover:underline decoration-[#00C289] underline-offset-4 transition-opacity duration-200" href="#">Privacy Policy</a> <a class="text-slate-500 dark:text-slate-400 font-label text-sm hover:underline decoration-[#00C289] underline-offset-4 transition-opacity duration-200" href="#">Terms of Service</a> <a class="text-slate-500 dark:text-slate-400 font-label text-sm hover:underline decoration-[#00C289] underline-offset-4 transition-opacity duration-200" href="#">Accessibility</a> </div>
+        </div>
+    </footer>
+</body>
+
+</html>
